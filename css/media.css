@@ -1,0 +1,286 @@
+
+@media (min-width:1200px){
+    .sign_up_secton .sign_up_header p{
+        margin-right: 180px;
+    }
+}
+@media (max-width:1200px){
+    .price_table {
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+    .sign_up_secton input{
+    }
+    .sign_up_secton .subscribe_btn{
+        width: 300px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+@media (max-width:1024px){
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 26px;
+    }
+    body{
+        font-style: 13px;
+    }
+    .hidden_btn{
+        color: #fff;
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+    .navbar{
+        padding: 10px 0;
+    }
+    .logo{
+        width: 80%;
+    }
+    .banner_slider{
+        height: 450px;
+    }
+    .banner{
+        height: 450px;
+    }
+    .text {
+        margin-top: 120px;
+    }
+    .inner{
+        transform: translateY(0%);
+        margin-bottom: 30px;
+    }
+    .inner_content{
+        margin-top: 30px;
+    }
+    .service{
+        border-top: 1px solid #eee;
+        margin-top: 60px;
+        padding: 100px 0;
+    }
+    .service_header{
+        padding: 0 20px;
+    }
+    
+}
+@media (max-width:991px){
+    .menu_btn{
+        display: inherit;
+    }
+    .text{
+        margin-top: 100px;
+    }
+    .service{
+        border-top: 1px solid #eee;
+        margin-top: 60px;
+    }
+    .services{
+        padding: 0 150px;
+    }
+    .service_header{
+        padding: 0 80px;
+    }
+    .service_header p {
+        padding: 0;
+    }
+    .services_middle{
+        margin: 30px 0;
+    }
+    .services_middle::after{
+        display: none;
+    }
+    .services_middle::before{
+        display: none;
+    }
+    .list{
+        margin-bottom: 35px;
+    }
+    .list1{
+        margin-bottom: 0;
+    }
+    .sign_up_secton .subscribe_btn{
+        width: 180px;
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+}
+@media (max-width:991px){
+    .c_btn{
+        display: none;
+    }
+
+
+    .navbar ul li{
+        margin-right: 0;
+        text-align: center;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+        color: rgb(26, 118, 209);
+        margin-top: 10px;
+    }
+    .navbar-nav .nav-link.active:hover{
+        color: #fff;
+    }
+    .navbar ul li:last-child{
+        /* margin-right: 0px; */
+    }
+    .nav-link{
+        display: block;
+        padding: 15px 12px !important;
+        transition: .3s all ease-in-out;
+        border-radius: 5px;
+    }
+    .nav-link::after{
+        /* content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 3px;
+        border-radius: 5px 5px 0 0;
+        transition: all .3s ease-in-out;
+        background-color: rgb(26, 118, 209); */
+        display: none;
+    
+    }
+    .nav-link:hover{
+        color: #fff;
+        background-color: rgb(26, 118, 209);
+    }
+    .nav-link:hover::after{
+        width: 100%;
+    }
+
+
+
+    .banner .owl-nav .owl-prev i{
+        display: none;
+    }
+    .banner .owl-nav .owl-next i{
+        display: none;
+    }
+    .sign_up_secton .sign_up_header{
+        text-align: center;
+        padding: 0 120px;
+    }
+}
+@media (max-width:768px){
+    .top_header ul{
+        justify-content: center;
+    }
+    .top_header_contact ul{
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .logo{
+        width: 70%;
+    }
+    .banner_slider{
+        background-position: right;
+    }
+    .services{
+        padding: 0 30px;
+    }
+    .service_header{
+        padding: 0 20px;
+    }
+}
+@media (max-width:575px){
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .top_header{
+        display: none;
+    }
+    .toggler_top_header{
+        display: block;
+    }
+    .toggler_top_header ul{
+        display: flex;
+        justify-content: center;
+    }
+    .toggler_top_header ul li{
+        margin: 0 7px;
+    }
+    .toggler_top_header ul li a{
+        color: #000;
+    }
+    .top_header_contact{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .top_header_contact a{
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+
+    }
+    .top_header_contact i{
+        color: rgb(26, 118, 209);
+        margin-right: 5px;
+    }
+    .btn{
+        display: block;
+    }
+    .learn_more_btn{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .container{
+        padding: 0 30px;
+    }
+    .menu_btn{
+        display: none;
+    }
+    .text{
+        margin-top: 60px;
+    }
+    .logo{
+        width: 60%;
+    }
+    .service{
+        padding-bottom: 0;
+        padding: 80px 0;
+    }
+    .services{
+        padding: 0;
+    }
+    .service_header{
+        padding: 15px;
+    }
+    .service_header p {
+        padding: 0;
+    }
+    .list{
+        margin-bottom: 35px;
+    }
+    .list1{
+        margin-bottom: 0;
+    }
+    .ecb_contact_learn_more{
+        margin-top: 15px !important;
+    }
+    .emergency_care_content{
+        padding: 0 0;
+    }
+    .table_header i {
+        font-size: 50px;
+    }
+    .sign_up_secton .sign_up_header {
+        padding: 0 20px;
+    }
+    .sign_up_secton input{
+        width: 100%;
+    }
+    .sign_up_secton .subscribe_btn{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
